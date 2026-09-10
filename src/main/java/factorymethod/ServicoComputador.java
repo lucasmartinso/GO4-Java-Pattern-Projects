@@ -9,4 +9,8 @@ public class ServicoComputador implements Servico {
     public String limpar() {
         return "Computador limpo e com pasta térmica nova";
     }
+
+    public String formatado() {
+        return "Computador formatado";
+    }
 }
